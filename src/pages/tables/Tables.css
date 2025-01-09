@@ -1,0 +1,15 @@
+@import "../../index.css";
+
+.status-container {
+  display: inline;
+  padding: 3px 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+.Online {
+  background-color: var(--light-green);
+}
+.Offline {
+  background-color: var(--text-secondary);
+}

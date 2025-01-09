@@ -1,0 +1,68 @@
+@import "../../index.css";
+
+.sidebar {
+  background-color: var(--light-blue-background);
+  padding: 2rem 1.5rem;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sidebar-links {
+  padding: 1rem 1.4rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar-links:hover {
+  transform: translateX(5px);
+}
+
+.sidebar-links span {
+  color: var(--text-secondary);
+}
+.sidebar h4 {
+  font-size: 14px;
+}
+
+.sidebar-links.active {
+  background-color: white;
+  border-radius: 14px;
+}
+
+.sidebar-icon img {
+  filter: brightness(0) saturate(100%) invert(59%) sepia(46%) saturate(672%)
+    hue-rotate(118deg) brightness(92%) contrast(95%);
+}
+
+.sidebar-links.active .sidebar-icon {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.sidebar-icon {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.sidebar-links.active > .sidebar-icon {
+  background-color: var(--primary-green);
+}
+.sidebar-links.active > span {
+  color: black;
+}
+.sidebar-links.active > .sidebar-icon img {
+  filter: brightness(0) invert(1);
+}

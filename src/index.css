@@ -1,0 +1,111 @@
+:root {
+  --primary-green: #3bcbbe;
+  --light-green: #2ecc71;
+  --light-blue-background: #f8f9fa;
+  --text-primary: #2d3748;
+  --text-secondary: #a0aec0;
+  --danger-red: #e74c3c;
+  --white: #ffffff;
+  --gray-border: #bdc3c7;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Ensures no scrollbars appear unless needed */
+}
+section {
+  margin-top: 2rem;
+}
+
+h5 {
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+h6 {
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+span {
+  color: var(--light-green);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.grey-text {
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 300;
+}
+.grey-text-medium {
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 300;
+}
+.grey-title {
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.title-1 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.title-large {
+  font-size: 14px;
+  font-weight: 600;
+}
+.title-2 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.custom-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 16px;
+  min-height: 250px;
+  overflow: hidden;
+}
+
+.text-button span {
+  color: #718096 !important;
+}
+
+.ant-switch-checked {
+  background-color: var(--primary-green) !important;
+}
+
+.ant-switch {
+  background-color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.ant-switch-inner-checked {
+  color: white;
+}
+
+.ant-switch-inner-unchecked {
+  color: black;
+}
+
+.toggle-switch {
+  margin-block: 1rem;
+}

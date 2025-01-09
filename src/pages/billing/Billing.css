@@ -1,0 +1,188 @@
+@import "../../index.css";
+
+.visa-card {
+  position: relative;
+  min-height: 208px;
+  width: 100%;
+}
+
+.visa-card img {
+  width: 100%;
+  /* object-fit: fill; */
+  height: 208px;
+}
+
+.visa-card-content {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 2.5rem;
+}
+
+.visa-card-number {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  margin-bottom: 14px;
+}
+
+.visa-card .title {
+  color: var(--white);
+  font-size: 12px;
+  font-weight: 300;
+}
+.visa-card .subtitle {
+  color: var(--white);
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+.salary-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 16px;
+  min-height: 208px;
+  overflow: hidden;
+}
+
+.salary-card .icon {
+  background-color: var(--primary-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 60px;
+  min-height: 60px;
+  border-radius: 16px;
+}
+.salary-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ant-divider {
+  margin: 0;
+}
+
+.payment-method-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 16px;
+  margin-top: 24px;
+  /* min-height: 220px; */
+  overflow: hidden;
+}
+
+.add-card-button {
+  background: linear-gradient(
+    81.62deg,
+    #313860 2.25%,
+    #151928 79.87%
+  ) !important;
+
+  border-radius: 12px;
+}
+
+.add-card-button span {
+  color: white !important;
+  font-weight: 400;
+}
+
+.invoice-cards {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  max-height: 345px;
+  overflow: hidden;
+}
+
+.payment-input-row {
+  margin-top: 1rem;
+}
+
+.view-all-button {
+  border: 1px solid var(--primary-green);
+}
+
+.view-all-button span {
+  color: var(--primary-green) !important;
+}
+
+.invoice-card {
+  margin-block: 2rem;
+}
+
+.billing-info-section,
+.transactions-list {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.billing-info-card {
+  background-color: #f8f9fa;
+  margin-block: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.billing-info-card .ant-space {
+  margin-top: 0.8rem;
+}
+
+.billing-info-card .edit-button span {
+  color: black !important;
+}
+
+.billing-info-card .delete-button span {
+  color: #e53e3d;
+}
+
+.transaction-card {
+  margin-block: 2rem;
+}
+
+.transaction-card .status-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.transaction-card .increase {
+  border: 1px solid var(--light-green);
+  font-size: 15px;
+  color: var(--light-green);
+}
+.transaction-card .decrease {
+  border: 1px solid var(--danger-red);
+  font-size: 15px;
+  color: var(--danger-red);
+}
+.transaction-card .pending {
+  border: 1px solid var(--text-secondary);
+  font-size: 15px;
+  color: var(--text-secondary);
+}
+.transaction-card .increase-amount {
+  font-size: 15px;
+  color: var(--light-green);
+  font-weight: 700;
+}
+.transaction-card .decrease-amount {
+  font-size: 15px;
+  color: var(--danger-red);
+  font-weight: 700;
+}
+.transaction-card .pending-amount {
+  font-size: 15px;
+  color: var(--text-secondary);
+  font-weight: 700;
+}

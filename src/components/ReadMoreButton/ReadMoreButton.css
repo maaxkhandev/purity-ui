@@ -1,0 +1,21 @@
+.read-more-button {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.read-more-button h4 {
+  font-size: 14px;
+}
+
+.read-more-button img {
+  width: 16px;
+  height: 16px;
+}
+
+.white-arrow {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(4%) saturate(2752%)
+    hue-rotate(223deg) brightness(130%) contrast(94%);
+}
